@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity  // Correção: Adicionada a anotação @Entity
+@Entity
 public class Course {
 
     @Id
@@ -19,4 +19,5 @@ public class Course {
     private Long id;
     private String nome;
     private String descricao;
+
 }

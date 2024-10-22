@@ -24,4 +24,3 @@ public class DataLoader implements CommandLineRunner {
         courseRepository.findAll().forEach(System.out::println);
     }
 }
-
